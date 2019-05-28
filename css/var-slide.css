@@ -1,0 +1,168 @@
+
+.wrap {
+  position:absolute;
+  width:100%;
+  min-height: 280px;
+  overflow-y:hidden;
+}
+
+aside.indicator {
+  z-index:2;
+  position: absolute;
+  top:70%;
+  right:30px;
+  margin-top:-67px;
+}
+.gnb .ind {
+   position:relative;
+   display:block;
+   margin-top:15px;
+   width:9px;
+   height:9px;
+   border-radius:100%;
+   text-indent:1000px;
+   cursor:pointer;
+   background:#fff;
+ }
+.gnb .ind:first-child { margin-top:0;}
+/*.gnb .ind.active { background:#6C7A89; -webkit-transition: background 0.3s ease;}*/
+
+/*
+* content -
+*
+*
+**/
+.content {
+  position:absolute;
+  left:0;
+  top:0;
+  width:100%;
+  height:100%;
+}
+.slideWrap {
+  position:relative;
+  top:0;
+  width:100%;
+  height:500%;
+}
+.var-slide {
+  position:relative;
+  width:100%;
+  height: 280px;
+}
+
+/* slide1 */
+.var-slide > img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  object-position: center;
+}
+.weather {
+  position: absolute;
+  top: 100px;
+  right: 60px;
+  color: #fff;
+
+}
+.weather3 {
+  right: 0;
+  left: 8vw;
+}
+.weather > h3 {
+  font-size: 0.9em;
+}
+.weather > h2 {
+  font-size: 2em;
+}
+.weather > h2 > img {
+  width: 50px;
+  height: 40px;
+}
+.weather > i > span {
+  font-family: 'supermarketregular';
+}
+/*
+* footer -
+*
+*
+**/
+@media screen and (min-width: 768px) {
+  .wrap {
+    min-height: 520px;
+  }
+  .weather {
+    right: 20vw;
+  }
+  aside.indicator {
+    top: 60%;
+    right: 12vw;
+  }
+  .var-slide {
+    height: 520px;
+  }
+  .var-slide > img {
+    height: 520px;
+  }
+  .weather > h3 {
+    font-size: 1.1em;
+  }
+  .weather > h2 {
+    font-size: 2.2em;
+  }
+  .weather > h2 > img {
+    width: 60px;
+    height: 50px;
+  }
+  .weather > i > span {
+    font-size: 1.2em;
+    margin-left: 3px;
+  }
+}
+
+
+@media screen and (min-width: 1280px) {
+  .wrap {
+    min-height: 720px;
+  }
+  .weather {
+    top: 130px;
+    right: 20vw;
+    transform: scale(1.3);
+  }
+  aside.indicator {
+    top: 60%;
+    right: 12vw;
+  }
+  .var-slide {
+    height: 720px;
+  }
+  .var-slide > img {
+    height: 720px;
+    object-position: top;
+  }
+  aside.indicator {
+    right: 8vw;
+  }
+  .gnb .ind {
+    width: 15px;
+    height: 15px;
+  }
+  .weather > h3 {
+    font-size: 1.1em;
+  }
+  .weather > h2 {
+    font-size: 2.2em;
+  }
+  .weather > h2 > img {
+    width: 60px;
+    height: 50px;
+  }
+  .weather > i > span {
+    font-size: 1.2em;
+    margin-left: 3px;
+  }
+  .weather3 {
+    left: 15vw; 
+  }
+}

@@ -1,0 +1,84 @@
+.recom-3d {
+  width: 100%;
+  height: 25em;
+  position: relative;
+}
+.carousel3d {
+  background: #fff;
+  position: absolute;
+  left: 35%;
+}
+
+li.carousel__item {
+  height: 460px;
+  background-color: #fff;
+  display: inline-block;
+  position: absolute;
+  -webkit-transition: all .1s ease-in-out;
+  transition: all .1s ease-in-out;
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -ms-transition: all .2s ease-in-out;
+}
+
+.pos__front {
+  z-index: 3000;
+}
+
+.pos__left {
+  margin-left: -12em;
+  -webkit-transform: scale(0.75);
+          transform: scale(0.75);
+  z-index: 2000;
+  opacity: .8;
+}
+
+.pos__right {
+  margin-left: 12em;
+  -webkit-transform: scale(0.75);
+          transform: scale(0.75);
+  z-index: 2000;
+  opacity: .8;
+}
+
+.pos__back {
+  -webkit-transform: scale(0.1);
+          transform: scale(0.1);
+  opacity: .1;
+  z-index: 1000;
+}
+.ar-prev {
+  width: 60px;
+  height: 60px;
+  z-index: 9999;
+  position: absolute;
+  top: 40%;
+  left: 5%;
+}
+.ar-prev img, .ar-next img {
+  width: 50px;
+  height: 60px;
+}
+.ar-next {
+  width: 60px;
+  height: 60px;
+  z-index: 9999;
+  position: absolute;
+  top: 40%;
+  right: 5%;
+}
+
+@media screen and (min-width: 1280px) {
+  .recom-3d {
+    margin-top: 70px;
+  }
+  .carousel3d {
+    left: 36.5%;
+  }
+  .pos__left, .pos__right {
+    transform: scale(1);
+  }
+  .pos__front {
+    transform: scale(1.15);
+  }
+}

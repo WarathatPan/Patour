@@ -1,0 +1,892 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Patour</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/humburger.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/var-slide.css">
+    <link rel="stylesheet" href="css/flickity.css">
+    <link rel="stylesheet" href="css/checkbox.css">
+    <link rel="stylesheet" href="css/upload.css">
+    <link rel="stylesheet" href="css/3d-recom.css"/>
+    <link rel="stylesheet" href="css/jquery.bxslider.css"/>
+    <link rel="stylesheet" href="css/owl.carousel.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" type="text/css" href="css/flexslider.css">
+    <script src="js/jquery-2.1.1.min.js"></script>
+    <link rel='stylesheet prefetch' href='https://npmcdn.com/flickity@2/dist/flickity.css'>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <style>
+      .flickity-page-dots {
+        bottom: -35px;
+      }
+      .flickity-page-dots > .dot {
+        background: none;
+        border: 1px solid #999;
+        opacity: 1;
+        width: 15px;
+        height: 15px;
+      }
+      .flickity-page-dots .dot.is-selected {
+        background-color: #999;
+      }
+      .flickity-prev-next-button {
+        display: none;
+      }
+      .flexslider .slides img {
+        height: 309px;
+      }
+      .flickity-page-dots > .dot:hover {
+        background-color: #999;
+      }
+    </style>
+</head>
+
+<body>
+    <header class="clearfix">
+        <section class="banner">
+          <!-- wrap -->
+        <div class="wrap">
+            <!-- indicator-->
+            <aside class="indicator">
+              <nav id="gnb" class="gnb">
+                <div class="ind active"></div>
+                <div class="ind"></div>
+                <div class="ind"></div>
+                <div class="ind"></div>
+              </nav>
+            </aside>
+            <!-- indicator-->
+            <!-- content -->
+            <section id="content" class="content">
+              <div class="slideWrap">
+                <!-- slide1 -->
+                <section class="var-slide">
+                  <img src="images/ban1.jpg"/>
+                  <div class="weather">
+                    <h3>อาทิตย์ 13/11</h3>
+                    <h2>3 <img src="images/weather1.png"/></h2>
+                    <h4>ชิงก์ แทร์เร</h4>
+                    <i class="fa fa-map-marker"><span>ลิกูเรีย, อิตาลี</span></i>
+                  </div>
+                </section>
+                <!-- //slide1 -->
+                <!-- slide2 -->
+                <section class="var-slide">
+                  <img src="images/ban2.jpg"/>
+                  <div class="weather weather3">
+                    <h3>อาทิตย์ 13/11</h3>
+                    <h2>29 <img src="images/weather2.png"/></h2>
+                    <h4>อาลัมบรา</h4>
+                    <i class="fa fa-map-marker"><span>แคว้นอันดาลูเซีย จังหวัดกราดานา, สเปน</span></i>
+                  </div>
+                </section>
+                <!-- //slide2 -->
+                <!-- slide3 -->
+                <section class="var-slide">
+                  <img src="images/ban4.jpg"/>
+                  <div class="weather">
+                    <h3>อาทิตย์ 13/11</h3>
+                    <h2>4.3 <img src="images/weather2.png"/></h2>
+                    <h4>ทะเลสาบโมเรน</h4>
+                    <i class="fa fa-map-marker"><span>แคนาดา</span></i>
+                  </div>
+                </section>
+                <!-- //slide3 -->
+                <!-- slide4 -->
+                <section class="var-slide">
+                  <img src="images/ban3.jpg"/>
+                  <div class="weather weather3">
+                    <h3>อาทิตย์ 13/11</h3>
+                    <h2>15 <img src="images/weather3.png"/></h2>
+                    <h4>หุบเขาโมนูเมนต์</h4>
+                    <i class="fa fa-map-marker"><span>รัฐยูทาห์ และรัฐแอริโซนา, สหรัฐอเมริกา</span></i>
+                  </div>
+                </section>
+                <!-- //slide4 -->
+              </div>
+            </section>
+            <!-- //content -->
+        </div>
+        <!-- //wrap -->
+          <section class="bar"></section>
+          <article class="logo">
+            <a href="index.html"><img src="images/logo.png"/></a>
+          </article>
+          <!-- logo -->
+          <nav class="open">
+            <span class="cls"></span>
+            <span>
+            	<ul class="sub-menu ">
+            		<li><a href="#">หน้าแรก</a></li>
+            		<li><a href="#">แนะนำ</a></li>
+            		<li><a href="#">บอร์ด</a></li>
+            		<li><a href="#">คลังภาพ</a></li>
+                <li><a href="#">ติดต่อ</a></li>
+            	</ul>
+            </span>
+            <span class="cls"></span>
+          </nav>
+          <!-- menu -->
+          <nav>
+            <ul class="desk-menu">
+              <li><a href="#" class="menu-active">หน้าแรก</a></li>
+              <li><a href="#">แนะนำ</a></li>
+              <li><a href="#">บอร์ด</a></li>
+              <li><a href="#">คลังภาพ</a></li>
+              <li><a href="#">ติดต่อ</a></li>
+              <div class="user-search">
+                <i class="fa fa-user"></i>
+                <i class="fa fa-search"></i>
+              </div>
+            </ul>
+          </nav>
+          <div class="log-in">
+
+          </div>
+            <script src='http://cdnjs.cloudflare.com/ajax/libs/gsap/1.16.1/TweenMax.min.js'></script>
+          <script src="js/index.js"></script>
+          <script src="js/var-slide.js"></script>
+        </section>
+        <!-- banner -->
+    </header>
+    <!-- header -->
+    <div class="container">
+      <div class="wrapper960">
+        <div class="recommend">
+          <div class="icon"><img src="images/icon-recom.png"/></div>
+          <h1>สถานที่แนะนำ</h1>
+          <div class="flexslider">
+            <ul class="slides">
+              <li>
+                 <div class="place">
+                    <div class="loca1">
+                      <img src="images/recom1.jpg"/>
+                      <h2>เวนิส</h2>
+                      <i class="fa fa-map-marker"><span>เวนิส, อิตาลี</span></i>
+                      <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                      </div>
+                    </div>
+                    <!-- location1 -->
+                  </div>
+                  <!-- place -->
+              </li>
+              <li>
+                 <div class="place">
+                    <div class="loca1 local-bg2">
+                      <img src="images/recom3.jpg"/>
+                      <h2>มาชูปิกชู</h2>
+                      <i class="fa fa-map-marker"><span>เทือกเขาแอนเดส, เปรู</span></i>
+                      <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                      </div>
+                     </div>
+                      <!-- location1 -->
+                  </div>
+                  <!-- place -->
+              </li>
+              <li>
+                 <div class="place">
+                    <div class="loca1 local-bg3">
+                      <img src="images/recom2.jpg"/>
+                      <h2>โตเกียวดิสนีย์แลนด์</h2>
+                      <i class="fa fa-map-marker"><span>เมืองอุระยะซุ จังหวัดจิบะ, ญี่ปุ่น</span></i>
+                      <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                      </div>
+                     </div>
+                      <!-- location1 -->
+                  </div>
+                  <!-- place -->
+              </li>
+            </ul>
+          </div>
+          <section class="recom-3d">
+          	<ul class="carousel3d">
+          		<li class="carousel__item pos__left" id="carousel__item-0">
+                <div class="place">
+                 <div class="loca1 local-bg2">
+                   <img src="images/recom3.jpg"/>
+                   <h2>มาชูปิกชู</h2>
+                   <i class="fa fa-map-marker"><span>เทือกเขาแอนเดส, เปรู</span></i>
+                   <div class="star">
+                     <i class="fa fa-star"></i>
+                     <i class="fa fa-star"></i>
+                     <i class="fa fa-star"></i>
+                     <i class="fa fa-star"></i>
+                     <i class="fa fa-star"></i>
+                   </div>
+                  </div>
+                   <!-- location1 -->
+                 </div>
+                <!-- place -->
+              </li>
+          		<li class="carousel__item pos__front" id="carousel__item-1">
+                <div class="place">
+                 <div class="loca1">
+                   <img src="images/recom1.jpg"/>
+                   <h2>เวนิส</h2>
+                   <i class="fa fa-map-marker"><span>เวนิส, อิตาลี</span></i>
+                   <div class="star">
+                     <i class="fa fa-star"></i>
+                     <i class="fa fa-star"></i>
+                     <i class="fa fa-star"></i>
+                     <i class="fa fa-star"></i>
+                     <i class="fa fa-star"></i>
+                   </div>
+                 </div>
+                 <!-- location1 -->
+                </div>
+               <!-- place -->
+              </li>
+          		<li class="carousel__item pos__right" id="carousel__item-2">
+                <div class="place">
+                 <div class="loca1 local-bg3">
+                   <img src="images/recom2.jpg"/>
+                   <h2>โตเกียวดิสนีย์แลนด์</h2>
+                   <i class="fa fa-map-marker"><span>เมืองอุระยะซุ จังหวัดจิบะ, ญี่ปุ่น</span></i>
+                   <div class="star">
+                     <i class="fa fa-star"></i>
+                     <i class="fa fa-star"></i>
+                     <i class="fa fa-star"></i>
+                     <i class="fa fa-star"></i>
+                     <i class="fa fa-star"></i>
+                   </div>
+                  </div>
+                   <!-- location1 -->
+                 </div>
+               <!-- place -->
+              </li>
+          	</ul>
+            <section>
+              <div class="ar-prev">
+                <img src="images/arrow-l.png"/>
+              </div>
+              <div class="ar-next">
+                <img src="images/arrow-r.png"/>
+              </div>
+            </section>
+          </section>
+        </div>
+        <!-- recommend -->
+
+        <div class="search">
+          <div class="icon"><img src="images/icon-search.png"/></div>
+          <h1>ค้นหาสถานที่ท่องเที่ยว</h1>
+          <div class="search-pic hide">
+            <img src="images/search1.jpg"/>
+          </div>
+          <div class="box-search mobile_only">
+            <div class="head-box"><h2>ค้นหา</h2></div>
+            <form class="form-search">
+              <div class="row1">
+                <label>
+                  <span>หมวดหมู่</span>
+                  <select class="form-row" name="type">
+                    <option value="เลือกหมวด">- เลือกหมวดหมู่ -</option>
+                    <option value="ทะเล">ทะเล</option>
+                    <option value="ภูเขา">ภูเขา</option>
+                    <option value="ป่า">ป่า</option>
+                    <option value="เมือง">เมือง</option>
+                    <option value="แลนด์มาร์ค">แลนด์มาร์ค</option>
+                    <option value="ฤดูท่องเที่ยว">ฤดูท่องเที่ยว</option>
+                  </select>
+                </label>
+              </div>
+              <!-- type -->
+              <div class="row2">
+                <label>
+                  <span>ประเทศ</span>
+                  <select class="form-row" name="country">
+                    <option value="เลือกประเทศ">- เลือกประเทศ -</option>
+                    <option value="กัมพูชา">กัมพูชา</option>
+                    <option value="กาตาร์">กาตาร์</option>
+                    <option value="เกาหลีใต้">เกาหลีใต้</option>
+                    <option value="เกาหลีเหนือ">เกาหลีเหนือ</option>
+                    <option value="คาซัคสถาน">คาซัคสถาน</option>
+                    <option value="คีร์กีซ">คีร์กีซ</option>
+                    <option value="คูเวต">คูเวต</option>
+                    <option value="จอร์เจีย">จอร์เจีย</option>
+                    <option value="จอร์แดน">จอร์แดน</option>
+                    <option value="จีน">จีน</option>
+                    <option value="ซาอุดิอาระเบีย">ซาอุดีอาระเบีย</option>
+                    <option value="ซีเรีย">ซีเรีย</option>
+                    <option value="ไซปรัส">ไซปรัส</option>
+                    <option value="ญี่ปุ่น">ญี่ปุ่น</option>
+                  </select>
+                </label>
+              </div>
+              <!-- country -->
+              <div class="row3">
+                <label>
+                  <span>เมือง</span>
+                  <select class="form-row" name="country">
+                    <option value="เลือกเมือง">- เลือกเมือง -</option>
+                    <option value="เวนิส">เวนิส</option>
+                    <option value="โตเกียว">โตเกียว</option>
+                    <option value="ปารีส">ปารีส</option>
+                    <option value="ลอนดอน">ลอนดอน</option>
+                    <option value="อัมมาน">อัมมาน</option>
+                    <option value="ปักกิ่่ง">ปักกิ่ง</option>
+                    <option value="รียาด">รียาด</option>
+                    <option value="ดามัสกัส">ดามัสกัส</option>
+                    <option value="นิโคมัส">นิโคเซีย</option>
+                    <option value="โตเกียว">โตเกียว</option>
+                    <option value="ดิลี">ดิลี</option>
+                  </select>
+                </label>
+              </div>
+              <!-- city -->
+              <div class="row4">
+                <label>
+                  <span>ช่วงเวลา</span>
+                  <select class="form-row" name="country">
+                    <option value="เลือกช่วงเวลา">- เลือกช่วงเวลา -</option>
+                    <option value="มกราคม">มกราคม</option>
+                    <option value="กุมภาพันธ์">กุมภาพันธ์</option>
+                    <option value="มีนาคม">มีนาคม</option>
+                    <option value="เมษายน">เมษายน</option>
+                    <option value="พฤษภาคม">พฤษภาคม</option>
+                    <option value="มิถุนายน">มิถุนายน</option>
+                    <option value="กรกฎาคม">กรกฎาคม</option>
+                    <option value="สิงหาคม">สิงหาคม</option>
+                    <option value="กันยายน">กันยายน</option>
+                    <option value="ตุลาคม">ตุลาคม</option>
+                    <option value="พฤศจิกายน">พฤศจิกายน</option>
+                    <option value="ธันวาคม">ธันวาคม</option>
+
+                  </select>
+                </label>
+              </div>
+              <!-- time -->
+              <div class="row5">
+                <span class="sub-btn">ค้นหาเลย!</span>
+              </div>
+              <!-- ok -->
+            </form>
+          </div>
+          <!-- box-search -->
+          <div class="search-pic1">
+            <img src="images/tomita-01.jpg"/>
+          </div>
+          <div class="search-pic2">
+            <img src="images/tomita-02.jpg"/>
+          </div>
+          <div class="search-pic3">
+            <img src="images/tomita-03.jpg"/>
+          </div>
+          <div class="bg-search">
+            <div class="box-search">
+              <div class="head-box"><h2>ค้นหา</h2></div>
+              <form class="form-search">
+                <div class="row1">
+                  <label>
+                    <span>หมวดหมู่</span>
+                    <select class="form-row" name="type">
+                      <option value="เลือกหมวด">- เลือกหมวดหมู่ -</option>
+                      <option value="ทะเล">ทะเล</option>
+                      <option value="ภูเขา">ภูเขา</option>
+                      <option value="ป่า">ป่า</option>
+                      <option value="เมือง">เมือง</option>
+                      <option value="แลนด์มาร์ค">แลนด์มาร์ค</option>
+                      <option value="ฤดูท่องเที่ยว">ฤดูท่องเที่ยว</option>
+                    </select>
+                  </label>
+                </div>
+                <!-- type -->
+                <div class="row2">
+                  <label>
+                    <span>ประเทศ</span>
+                    <select class="form-row" name="country">
+                      <option value="เลือกประเทศ">- เลือกประเทศ -</option>
+                      <option value="กัมพูชา">กัมพูชา</option>
+                      <option value="กาตาร์">กาตาร์</option>
+                      <option value="เกาหลีใต้">เกาหลีใต้</option>
+                      <option value="เกาหลีเหนือ">เกาหลีเหนือ</option>
+                      <option value="คาซัคสถาน">คาซัคสถาน</option>
+                      <option value="คีร์กีซ">คีร์กีซ</option>
+                      <option value="คูเวต">คูเวต</option>
+                      <option value="จอร์เจีย">จอร์เจีย</option>
+                      <option value="จอร์แดน">จอร์แดน</option>
+                      <option value="จีน">จีน</option>
+                      <option value="ซาอุดิอาระเบีย">ซาอุดีอาระเบีย</option>
+                      <option value="ซีเรีย">ซีเรีย</option>
+                      <option value="ไซปรัส">ไซปรัส</option>
+                      <option value="ญี่ปุ่น">ญี่ปุ่น</option>
+                    </select>
+                  </label>
+                </div>
+                <!-- country -->
+                <div class="row3">
+                  <label>
+                    <span>เมือง</span>
+                    <select class="form-row" name="country">
+                      <option value="เลือกเมือง">- เลือกเมือง -</option>
+                      <option value="เวนิส">เวนิส</option>
+                      <option value="โตเกียว">โตเกียว</option>
+                      <option value="ปารีส">ปารีส</option>
+                      <option value="ลอนดอน">ลอนดอน</option>
+                      <option value="อัมมาน">อัมมาน</option>
+                      <option value="ปักกิ่่ง">ปักกิ่ง</option>
+                      <option value="รียาด">รียาด</option>
+                      <option value="ดามัสกัส">ดามัสกัส</option>
+                      <option value="นิโคมัส">นิโคเซีย</option>
+                      <option value="โตเกียว">โตเกียว</option>
+                      <option value="ดิลี">ดิลี</option>
+                    </select>
+                  </label>
+                </div>
+                <!-- city -->
+                <div class="row4">
+                  <label>
+                    <span>ช่วงเวลา</span>
+                    <select class="form-row" name="country">
+                      <option value="เลือกช่วงเวลา">- เลือกช่วงเวลา -</option>
+                      <option value="มกราคม">มกราคม</option>
+                      <option value="กุมภาพันธ์">กุมภาพันธ์</option>
+                      <option value="มีนาคม">มีนาคม</option>
+                      <option value="เมษายน">เมษายน</option>
+                      <option value="พฤษภาคม">พฤษภาคม</option>
+                      <option value="มิถุนายน">มิถุนายน</option>
+                      <option value="กรกฎาคม">กรกฎาคม</option>
+                      <option value="สิงหาคม">สิงหาคม</option>
+                      <option value="กันยายน">กันยายน</option>
+                      <option value="ตุลาคม">ตุลาคม</option>
+                      <option value="พฤศจิกายน">พฤศจิกายน</option>
+                      <option value="ธันวาคม">ธันวาคม</option>
+
+                    </select>
+                  </label>
+                </div>
+                <!-- time -->
+                <div class="row5">
+          				<span class="sub-btn">ค้นหาเลย!</span>
+          			</div>
+                <!-- ok -->
+              </form>
+            </div>
+            <!-- box-search1 -->
+              <div id="owl-demo" class="thumb-see">
+                <div class="thumb-place1 item">
+                    <img src="images/tomita-01.jpg"/>
+                  </div>
+                  <!-- thumb-place1 -->
+                <div class="thumb-place2 item">
+                    <img src="images/tomita-02.jpg"/>
+                </div>
+                <!-- thumb-place2 -->
+                <div class="thumb-place3 item">
+                    <img src="images/tomita-03.jpg"/>
+                </div>
+                <!-- thumb-place3 -->
+
+              </div>
+            <!-- thumbnail -->
+          </div>
+        </div>
+        <!-- serach -->
+      </div>
+
+        <div class="board">
+          <div class="icon"><img src="images/icon-board.png"/></div>
+          <h1>บอร์ด</h1>
+          <div class="board-img">
+            <div class="img-txt">
+              <h1>ญี่ปุ่น</h1>
+              <i class="fa fa-map-marker"> ญี่ปุ่น</i>
+              <div class="icon-pop clearfix">
+                <i class="fa fa-eye fa-posi"><span>19,201</span></i>
+                <i class="fa fa-heart fa-size"><span>5,176</span></i>
+                <i class="fa fa-comment fa-size"><span>2,345</span></i>
+                <i class="fa fa-share fa-po"><span>903</span></i>
+              </div>
+            </div>
+            <div class="wrapper960">
+              <div class="board-box">
+                <div class="head-pop">
+                  <h2>กระทู้แนะนำ</h2>
+                </div>
+                <!-- head-board -->
+                <ul class="bxslider">
+                  <li>
+                    <div class="pop">
+                      <div class="img-pop">
+                        <img src="images/board4.jpg"/>
+                      </div>
+                      <!-- img-pop -->
+                      <div class="txt-pop">
+                        <img src="images/user4.png"/>
+                        <h5>LillyCollins</h5>
+                        <h1>ตามรอยแอนิเมชั่นสุดฮิต</h1>
+                        <p>"...สวัสดีเพื่อนๆ ชาวพาทัวร์ทุกๆท่าน นี่เป็นครั้งแรกของการ..."</p>
+                        <div class="icon-pop clearfix">
+                          <i class="fa fa-eye fa-posi"><span>6,111</span></i>
+                          <i class="fa fa-heart fa-size"><span>1,116</span></i>
+                          <i class="fa fa-comment fa-size"><span>301</span></i>
+                          <i class="fa fa-share fa-po"><span>103</span></i>
+                        </div>
+                        <!-- icon-pop -->
+                        <button type="submit" class="submit-btn2">อ่านต่อ</button>
+                      </div>
+                      <!-- txt-pop -->
+                    </div>
+                  </li>
+                  <li>
+                    <div class="pop">
+                      <div class="img-pop">
+                        <img src="images/board1.jpg"/>
+                      </div>
+                      <!-- img-pop -->
+                      <div class="txt-pop">
+                        <img src="images/user1.png"/>
+                        <h5>ShuntaroYanagi</h5>
+                        <h1>เที่ยวทะเลสาปรอบภูเขาไฟฟูจิ</h1>
+                        <p>"...สวัสดีเพื่อนๆ ชาวพาทัวร์ทุกๆท่าน นี่เป็นครั้งแรกของการ..."</p>
+                        <div class="icon-pop clearfix">
+                          <i class="fa fa-eye fa-posi"><span>6,111</span></i>
+                          <i class="fa fa-heart fa-size"><span>1,116</span></i>
+                          <i class="fa fa-comment fa-size"><span>301</span></i>
+                          <i class="fa fa-share fa-po"><span>103</span></i>
+                        </div>
+                        <!-- icon-pop -->
+                        <button type="submit" class="submit-btn2">อ่านต่อ</button>
+                      </div>
+                      <!-- txt-pop -->
+                    </div>
+                  </li>
+                  <li>
+                    <div class="pop">
+                      <div class="img-pop">
+                        <img src="images/board2.jpg"/>
+                      </div>
+                      <!-- img-pop -->
+                      <div class="txt-pop">
+                        <img src="images/user2.jpg"/>
+                        <h5>Mackenyu.1116</h5>
+                        <h1>กระโดดตามจิงโจ้ไปออสเตรเลีย!</h1>
+                        <p>"...สวัสดีเพื่อนๆ ชาวพาทัวร์ทุกๆท่าน นี่เป็นครั้งแรกของการ..."</p>
+                        <div class="icon-pop clearfix">
+                          <i class="fa fa-eye fa-posi"><span>6,111</span></i>
+                          <i class="fa fa-heart fa-size"><span>1,116</span></i>
+                          <i class="fa fa-comment fa-size"><span>301</span></i>
+                          <i class="fa fa-share fa-po"><span>103</span></i>
+                        </div>
+                        <!-- icon-pop -->
+                        <button type="submit" class="submit-btn2">อ่านต่อ</button>
+                      </div>
+                      <!-- txt-pop -->
+                    </div>
+                  </li>
+                  <li>
+                    <div class="pop">
+                      <div class="img-pop img-pop3">
+                        <img src="images/board3.jpg"/>
+                      </div>
+                      <!-- img-pop -->
+                      <div class="txt-pop">
+                        <img src="images/user3.png"/>
+                        <h5>BenedictCumb</h5>
+                        <h1>ทะเลแหวก ทะเลกระบี่ เกาะปอดะ</h1>
+                        <p>"...สวัสดีเพื่อนๆ ชาวพาทัวร์ทุกๆท่าน นี่เป็นครั้งแรกของการ..."</p>
+                        <div class="icon-pop clearfix">
+                          <i class="fa fa-eye fa-posi"><span>6,111</span></i>
+                          <i class="fa fa-heart fa-size"><span>1,116</span></i>
+                          <i class="fa fa-comment fa-size"><span>301</span></i>
+                          <i class="fa fa-share fa-po"><span>103</span></i>
+                        </div>
+                        <!-- icon-pop -->
+                        <button type="submit" class="submit-btn2">อ่านต่อ</button>
+                      </div>
+                      <!-- txt-pop -->
+                    </div>
+                  </li>
+                </ul>
+
+                <!-- pop -->
+                <div class="head-new clearfix">
+                  <i class="fa fa-pencil"></i><h3>ตั้งกระทู้</h3>   <h2>กระทู้แนะนำ</h2>
+                </div>
+                <!-- head-new -->
+                <div class="new">
+                  <div class="new1">
+                    <div class="img-new">
+                      <img src="images/board5.jpg"/>
+                    </div>
+                    <!-- img-new -->
+                    <div class="txt-new">
+                      <h1>ขี่อูฐตะลุยแดนลุ่มแม่น้ำไนล์ "อียิปต์"</h1>
+                      <img src="images/user5.jpg"/>
+                      <h5>DakotaFanning</h5>
+                      <div class="icon-pop clearfix">
+                        <i class="fa fa-eye fa-posi"><span>12</span></i>
+                        <i class="fa fa-heart fa-size"><span>2</span></i>
+                        <i class="fa fa-comment fa-size"><span>0</span></i>
+                        <i class="fa fa-share fa-po"><span>0</span></i>
+                      </div>
+                      <!-- icon-new -->
+                    </div>
+                    <!-- txt-new -->
+                  </div>
+                  <!-- new1 -->
+                  <div class="new2">
+                    <div class="img-new2">
+                      <img src="images/board6.jpg"/>
+                    </div>
+                    <!-- img-new -->
+                    <div class="txt-new2">
+                      <h1>ทิเบต!!! ไม่ไปไม่ได้แล้ว</h1>
+                      <img src="images/user6.jpg"/>
+                      <h5>Nicolus_Holt</h5>
+                      <div class="icon-pop clearfix">
+                        <i class="fa fa-eye fa-posi"><span>14</span></i>
+                        <i class="fa fa-heart fa-size"><span>3</span></i>
+                        <i class="fa fa-comment fa-size"><span>2</span></i>
+                        <i class="fa fa-share fa-po"><span>0</span></i>
+                      </div>
+                      <!-- icon-new -->
+                    </div>
+                    <!-- txt-new -->
+                  </div>
+                  <!-- new2 -->
+                  <button type="submit" class="submit-btn3">อ่านกระทู้ล่าสุดต่อ ></button>
+                </div>
+                <!-- new -->
+              </div>
+            </div>
+          </div>
+          <!-- board-img -->
+        </div>
+        <!-- board -->
+
+      <div class="wrapper960">
+        <div class="gallery">
+          <div class="icon"><img src="images/icon-gallery.png"/></div>
+          <h1>คลังภาพ</h1>
+          <div class="picture">
+            <div class="carousel" data-flickity>
+              <div class="carousel-cell">
+                <img src="images/gal1.jpg"/>
+                <h3>โกดาฟอสส์น้ำตกของพระเจ้า, ไอซ์แลนด์</h3>
+                <h4>โดย ShuntaroYanagi</h4>
+                <div class="icon-pop2 clearfix">
+                  <i class="fa fa-eye fa-posi"><span>6,111</span></i>
+                  <i class="fa fa-heart fa-size"><span>1,116</span></i>
+                  <i class="fa fa-comment fa-size"><span>301</span></i>
+                  <i class="fa fa-share fa-po"><span>103</span></i>
+                </div>
+                <!-- icon-pop2 -->
+                <div class="car-detail">
+                  <h2>โกดาฟอสส์น้ำตกของพระเจ้า</h2>
+                </div>
+              </div>
+              <div class="carousel-cell carousel-cell2">
+                <img src="images/gal2.jpg"/>
+                <h3>โทริอิ, ญี่ปุ่น</h3>
+                <h4>โดย ShuntaroYanagi</h4>
+                <div class="icon-pop2 clearfix">
+                  <i class="fa fa-eye fa-posi"><span>6,111</span></i>
+                  <i class="fa fa-heart fa-size"><span>1,116</span></i>
+                  <i class="fa fa-comment fa-size"><span>301</span></i>
+                  <i class="fa fa-share fa-po"><span>103</span></i>
+                </div>
+                <!-- icon-pop2 -->
+                <div class="car-detail car-detail-po">
+                  <h2>โทริอิ, ญี่ปุ่น</h2>
+                </div>
+              </div>
+              <div class="carousel-cell carousel-cell3">
+                <img src="images/gal3.jpg"/>
+                <h3>บ่อน้ำพุร้อน, ญี่ปุ่น</h3>
+                <h4>โดย ShuntaroYanagi</h4>
+                <div class="icon-pop2 clearfix">
+                  <i class="fa fa-eye fa-posi"><span>6,111</span></i>
+                  <i class="fa fa-heart fa-size"><span>1,116</span></i>
+                  <i class="fa fa-comment fa-size"><span>301</span></i>
+                  <i class="fa fa-share fa-po"><span>103</span></i>
+                </div>
+                <!-- icon-pop2 -->
+                <div class="car-detail car-detail-po2">
+                  <h2>บ่อน้ำพุร้อน, ญี่ปุ่น</h2>
+                </div>
+              </div>
+              <div class="carousel-cell carousel-cell3">
+                <img src="images/gal4.jpg"/>
+                <h3>เทือกเขาแอลป์, ฝรั่งเศส</h3>
+                <h4>โดย ShuntaroYanagi</h4>
+                <div class="icon-pop2 clearfix">
+                  <i class="fa fa-eye fa-posi"><span>6,111</span></i>
+                  <i class="fa fa-heart fa-size"><span>1,116</span></i>
+                  <i class="fa fa-comment fa-size"><span>301</span></i>
+                  <i class="fa fa-share fa-po"><span>103</span></i>
+                </div>
+                <!-- icon-pop2 -->
+                <div class="car-detail car-detail-po3">
+                  <h2>เทือกเขาแอลป์</h2>
+                </div>
+              </div>
+              <div class="carousel-cell carousel-cell3">
+                <img src="images/gal5.jpg"/>
+                <h3>ภูเขาบริติช, โคลัมเบีย</h3>
+                <h4>โดย ShuntaroYanagi</h4>
+                <div class="icon-pop2 clearfix">
+                  <i class="fa fa-eye fa-posi"><span>6,111</span></i>
+                  <i class="fa fa-heart fa-size"><span>1,116</span></i>
+                  <i class="fa fa-comment fa-size"><span>301</span></i>
+                  <i class="fa fa-share fa-po"><span>103</span></i>
+                </div>
+                <!-- icon-pop2 -->
+                <div class="car-detail car-detail-po3">
+                  <h2>ภูเขาแอสซินิโบน</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="up-pic">
+            <div class="wrapper-up">
+              <button class="no-image" id="img-result">Upload Image</button>
+            </div>
+            <div class="upload-result">
+              <button class="hide-button">Close</button>
+              <pre class="upload-result__content">
+              </pre>
+            </div>
+          </div>
+          <!-- upload -->
+        </div>
+        <!-- gallery -->
+      </div>
+    </div>
+    <!-- container -->
+
+    <footer>
+      <div class="wrapper960">
+        <div class="wrap-foot">
+          <div class="icon icon-logo">
+            <img src="images/logo1.png"/>
+          </div>
+          <div class="foot-menu">
+            <ul>
+              <li class="not-mobile">เมนู</li>
+              <li class="foot-menu1"><a href="#">หน้าแรก</a></li>
+              <li class="foot-menu1"><a href="#">แนะนำ</a></li>
+              <li class="foot-menu1"><a href="#">บอร์ด</a></li>
+              <li class="foot-menu1"><a href="#">คลังภาพ</a></li>
+              <li class="foot-menu1"><a href="#">ติดต่อ</a></li>
+            </ul>
+          </div>
+          <div class="social">
+            <h2>ช่องทางการติดตาม</h2>
+            <div class="icon-social">
+              <img src="images/icon-fb.png"/>
+              <img src="images/icon-tw.png"/>
+              <img src="images/icon-ig.png"/>
+            </div>
+            <div class="icon-social">
+              <img src="images/icon-yt.png"/>
+              <img src="images/icon-gg.png"/>
+              <img src="images/icon-pin.png"/>
+            </div>
+          </div>
+          <div class="subscribe">
+            <h2>สมัครรับข้อมูลข่าวสาร</h2>
+            <h3>คุณชอบท่องเที่ยวแบบไหน?</h3>
+            <div class="sub-row">
+      				<p>
+                <input type="checkbox" id="test1" />
+                <label for="test1">ทะเล</label>
+      				</p>
+              <p class="mountain">
+                <input type="checkbox" id="test2" />
+                <label for="test2">ภูเขา</label>
+      				</p>
+              <p>
+                <input type="checkbox" id="test3" />
+                <label for="test3">ป่า</label>
+      				</p>
+              <p id="city">
+                <input type="checkbox" id="test4" />
+                <label for="test4">เมือง</label>
+      				</p>
+              <p>
+                <input type="checkbox" id="test5" />
+                <label for="test5">ที่ฮิต</label>
+      				</p>
+              <p>
+                <input type="checkbox" id="test6" />
+                <label for="test6">ตามฤดูกาล</label>
+      				</p>
+      			</div>
+            <!-- sub-row -->
+          </div>
+          <div class="sub-row2">
+            <label>
+              <input class="form-e" type="email" name="email" placeholder="Email@hotmail.com">
+              <button type="submit" class="submit-btn4">ตกลง</button>
+            </label>
+          </div>
+          <div class="copy-right">
+            &copy;2016 PATOUR.COM BY TUNGJAITUMNAH! GROUP
+          </div>
+        </div>
+      </div>
+    </footer>
+</body>
+  <script src='https://npmcdn.com/flickity@2/dist/flickity.pkgd.js'></script>
+  <script src="js/3d-recom.js"></script>
+  <script src="js/select.js"></script>
+  <script src="js/upload.js"></script>
+  <script src="js/flickity.js"></script>
+  <script src="js/thumb.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.flexslider.js"></script>
+  <script type="text/javascript">
+  	$(document).ready(function(){
+  	  $('.bxslider').bxSlider({
+  	  	controls: false,
+  	  });
+  	});
+  </script>
+
+  <script>
+    $(window).load(function(){
+      $('.flexslider').flexslider({
+        animation: "slide",
+        controlNav: false,
+        slideshow: false,
+      });
+    });
+  </script>
+
+  <script>
+  $(document).ready(function() {
+    $("#owl-demo").owlCarousel({
+        autoPlay: false, //Set AutoPlay to 3 seconds
+        items : 2,
+        itemsDesktop : [200,1],
+        itemsDesktopSmall : [220,1],
+      });
+
+    });
+  </script>
+</html>

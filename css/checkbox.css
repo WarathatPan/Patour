@@ -1,0 +1,89 @@
+[type="checkbox"]:not(:checked),
+[type="checkbox"]:checked {
+  position: absolute;
+  left: -9999px;
+}
+[type="checkbox"]:not(:checked) + label,
+[type="checkbox"]:checked + label {
+  position: relative;
+  padding-left: 30px;
+  cursor: pointer;
+}
+
+/* checkbox aspect */
+[type="checkbox"]:not(:checked) + label:before,
+[type="checkbox"]:checked + label:before {
+  content: '';
+  position: absolute;
+  left:0; top: 2px;
+  width: 25px; height: 25px;
+  border: 2px solid #fff;
+  background: none;
+  border-radius: 3px;
+}
+/* checked mark aspect */
+[type="checkbox"]:not(:checked) + label:after,
+[type="checkbox"]:checked + label:after {
+  content: '✔';
+  position: absolute;
+  top: 4px; left: 2px;
+  font-size: 1.75em;
+  line-height: 1;
+  color: #fff;
+  transition: all .2s;
+}
+/* checked mark aspect changes */
+[type="checkbox"]:not(:checked) + label:after {
+  opacity: 0;
+  transform: scale(0);
+}
+[type="checkbox"]:checked + label:after {
+  opacity: 1;
+  transform: scale(1);
+}
+/* disabled checkbox */
+[type="checkbox"]:disabled:not(:checked) + label:before,
+[type="checkbox"]:disabled:checked + label:before {
+  box-shadow: none;
+  border-color: #fff;
+  background-color: #fff;
+}
+[type="checkbox"]:disabled:checked + label:after {
+  color: #fff;
+}
+[type="checkbox"]:disabled + label {
+  color: #fff;
+}
+/* accessibility */
+
+/* hover style just for information */
+label:hover:before {
+  border: 1px solid #ff9d7c!important;
+}
+.sub-row > p {
+  float: left;
+  margin-left: 8%;
+  margin-top: 13px;
+}
+
+
+@media screen and (min-width: 768px) {
+  .sub-row > p {
+    margin-left: 20%;
+  }
+  .sub-row > p:last-child {
+    margin-left: 13.5%;
+  }
+  #city {
+    margin-left: 17%;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .sub-row > p {
+    margin-left: 25%;
+  }
+  #city {
+    margin-left: 17.3%;
+  }
+}

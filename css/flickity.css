@@ -1,0 +1,79 @@
+/* external css: flickity.css */
+
+* { box-sizing: border-box; }
+.carousel {
+  background: #fff;
+}
+
+.carousel-cell {
+  width: 64.062%;
+  height: 298px;
+  margin-right: 20px;
+  counter-increment: carousel-cell;
+  background-color:#976ebc;
+  filter:progid:DXImageTransform.Microsoft.gradient(GradientType=1,startColorstr=#976ebc, endColorstr=#f47fcc);
+  background-image:-moz-linear-gradient(right top, #976ebc 0%, #f47fcc 81%,#f47fcc 100%);
+  background-image:linear-gradient(right top, #976ebc 0%, #f47fcc 81%,#f47fcc 100%);
+  background-image:-webkit-linear-gradient(right top, #976ebc 0%, #f47fcc 81%,#f47fcc 100%);
+  background-image:-o-linear-gradient(right top, #976ebc 0%, #f47fcc 81%,#f47fcc 100%);
+  background-image:-ms-linear-gradient(right top, #976ebc 0%, #f47fcc 81%,#f47fcc 100%);
+  background-image:-webkit-gradient(linear, right top, left bottom, color-stop(0%,#976ebc), color-stop(81%,#f47fcc),color-stop(100%,#f47fcc));
+  color: #fff;
+}
+.carousel-cell img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.carousel-cell2 img {
+  object-position: left;
+}
+.carousel-cell:hover img {
+  opacity: .4;
+}
+.carousel-cell:hover .car-detail {
+  opacity: 1;
+  cursor: pointer;
+}
+.carousel-cell h3 {
+  position: absolute;
+  font-size: 1.1em;
+  top: 67%;
+  left: 7%;
+}
+.carousel-cell2 h3, .carousel-cell3 h3 {
+  top: 70%;
+}
+.carousel-cell h4 {
+  position: absolute;
+  top: 82%;
+  left: 7%;
+}
+.carousel-cell:hover h3, .carousel-cell:hover h4, .carousel-cell:hover .icon-pop2 {
+  opacity: 0;
+}
+.car-detail {
+  position: absolute;
+  top: 48%;
+  left: 5%;
+  color: #fff;
+  font-family: 'sukhumvit_setmedium';
+  opacity: 0;
+  z-index: 100;
+}
+.car-detail-po {
+  left: 35%;
+}
+.car-detail-po2 {
+  left: 25%;
+}
+.car-detail-po3 {
+  left: 30%;
+}
+
+@media screen and (min-width: 1280px) {
+  .carousel-cell {
+    height: 350px;
+  }
+}

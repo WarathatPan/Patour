@@ -1,0 +1,21 @@
+.clearfix {
+    *+height: 1%;
+}
+
+.carousel {
+    height: 300px;
+    margin:30px auto;
+}
+
+.carousel ul {}
+
+.carousel ul li {
+  border:1px solid #fff;
+}
+
+.carousel ul li img {}
+
+.left,
+.right {
+    cursor: pointer;
+}
